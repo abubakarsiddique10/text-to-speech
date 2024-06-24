@@ -132,3 +132,44 @@
     font-weight: 500;
 }
 /* Short End */
+
+
+
+/* vocabulary short start*/
+
+.vocabulary__short {
+    width: 540px;
+    height: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding-left: 45px;
+    font-family: "Roboto", sans-serif;
+
+    & .vocabulary__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    & .main__title {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    & .vocabulary__card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+
+    & .vocabulary__img {
+    width: 50px;
+    }
+
+    & .vocabulary__title {
+        text-transform: uppercase;
+        display: none;
+    }
+}
+
+
+/* vocabulary short end*/

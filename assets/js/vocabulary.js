@@ -71,7 +71,6 @@ const vocab = [
 let intervalId = null;
 let counter = 0
 const callBack = function () {
-    console.count()
     if (counter < vocab.length) {
         const { imageSrc, word } = vocab[counter]
         createVocabularyCard(imageSrc, word);
